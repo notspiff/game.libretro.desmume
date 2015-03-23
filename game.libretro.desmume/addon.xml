@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="gameclient.desmume"
+<addon id="game.libretro.desmume"
 		name="DeSmuME"
 		version="0.9.10"
 		provider-name="Libretro">
 	<requires>
-		<import addon="xbmc.libretro" version="1.0.0"/>
+		<import addon="game.libretro" version="1.0.0"/>
 	</requires>
-	<extension point="xbmc.gameclient"
-			library_android=""
-			library_linux="desmume_libretro.so"
-			library_osx=""
-			library_windx=""
-			library_wingl="">
+	<extension point="kodi.gameclient"
+                   library_android="libgame.libretro.desmume.so"
+                   library_linux="game.libretro.desmume.so"
+                   library_osx="game.libretro.desmume.dylib"
+                   library_windx="game.libretro.desmume.dll"
+                   library_wingl="game.libretro.desmume.dll">
 		<platforms>Nintendo DS</platforms>
 		<extensions>nds</extensions>
 		<allowvfs>false</allowvfs>
@@ -24,9 +24,6 @@
 Special thanks to: yopyop (original author of DeSmuME), for releasing the source code of this great emulator; Martin Korth (author of GBATEK), for his well-written Gameboy Advance and Nintendo DS documentation.
 
 Source: https://github.com/libretro/desmume-libretro</description>
-		<platform>linux</platform>
-		<noicon>true</noicon>
-		<nofanart>true</nofanart>
-		
+		<platform>all</platform>
 	</extension>
 </addon>
