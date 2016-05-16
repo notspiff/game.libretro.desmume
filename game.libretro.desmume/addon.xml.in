@@ -8,11 +8,7 @@
 		<import addon="game.controller.nds" version="1.0.0"/>
 	</requires>
 	<extension point="kodi.gameclient"
-                   library_android="libgame.libretro.desmume.so"
-                   library_linux="game.libretro.desmume.so"
-                   library_osx="game.libretro.desmume.dylib"
-                   library_windx="game.libretro.desmume.dll"
-                   library_wingl="game.libretro.desmume.dll">
+                   library_@PLATFORM@="@LIBRARY_FILENAME@">
 		<platforms>Nintendo DS</platforms>
 		<extensions>nds</extensions>
 		<supports_vfs>false</supports_vfs>
@@ -27,7 +23,7 @@ Supported files: .nds
 Special thanks to: yopyop (original author of DeSmuME), for releasing the source code of this great emulator; Martin Korth (author of GBATEK), for his well-written Gameboy Advance and Nintendo DS documentation.
 
 License: GPLv2</description>
-		<platform>all</platform>
+		<platform>@PLATFORM@</platform>
 		<nofanart>true</nofanart>
 	</extension>
 </addon>
