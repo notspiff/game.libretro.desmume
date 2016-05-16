@@ -6,7 +6,7 @@ list(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR})
 
 enable_language(CXX)
 
-find_package(kodi REQUIRED)
+find_package(Kodi REQUIRED)
 
 if(CMAKE_BUILD_TYPE MATCHES Debug)
   set(LIBRETRO_DEBUG DEBUG=1)
