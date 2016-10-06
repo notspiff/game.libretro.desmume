@@ -12,7 +12,8 @@
 		<platforms>Nintendo DS</platforms>
 		<extensions>nds</extensions>
 		<supports_vfs>false</supports_vfs>
-		<supports_no_game>false</supports_no_game>
+		<supports_standalone>false</supports_standalone>
+		<supports_keyboard>false</supports_keyboard>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">DeSmuME</summary>
@@ -20,9 +21,8 @@
 
 Supported files: .nds
 
-Special thanks to: yopyop (original author of DeSmuME), for releasing the source code of this great emulator; Martin Korth (author of GBATEK), for his well-written Gameboy Advance and Nintendo DS documentation.
-
-License: GPLv2</description>
+Special thanks to: yopyop (original author of DeSmuME), for releasing the source code of this great emulator; Martin Korth (author of GBATEK), for his well-written Gameboy Advance and Nintendo DS documentation.</description>
+		<license>GPLv2</license>
 		<platform>@PLATFORM@</platform>
 		<nofanart>true</nofanart>
 	</extension>
