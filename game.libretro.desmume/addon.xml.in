@@ -10,17 +10,17 @@
 	<extension point="kodi.gameclient"
 			library_@PLATFORM@="@LIBRARY_FILENAME@">
 		<platforms>Nintendo DS</platforms>
-		<extensions>nds</extensions>
+		<extensions>nds|bin</extensions>
 		<supports_vfs>false</supports_vfs>
 		<supports_standalone>false</supports_standalone>
 		<supports_keyboard>false</supports_keyboard>
 		<supports_mouse>false</supports_mouse>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Nintendo DS (DeSmuME) svn</summary>
+		<summary lang="en">Nintendo DS (DeSmuME) git</summary>
 		<description>DeSmuME is software that allows you to emulate a Nintendo DS system.
 
-Supported files: .nds
+Supported files: .nds, .bin
 
 Special thanks to: yopyop (original author of DeSmuME), for releasing the source code of this great emulator; Martin Korth (author of GBATEK), for his well-written Gameboy Advance and Nintendo DS documentation.</description>
 		<license>GPLv2</license>

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: game.libretro.desmume\n"
 "Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
-"POT-Creation-Date: 2016-12-21 00:37i\n"
-"PO-Revision-Date: 2016-12-21 00:37i\n"
+"POT-Creation-Date: 2016-12-22 18:30i\n"
+"PO-Revision-Date: 2016-12-22 18:30i\n"
 "Last-Translator: Kodi Translation Team\n"
 "Language-Team: English (http://www.transifex.com/projects/p/xbmc-addons/language/en/)\n"
 "MIME-Version: 1.0\n"
@@ -21,17 +21,105 @@ msgid "Settings"
 msgstr ""
 
 msgctxt "#30001"
-msgid "Language"
+msgid "Enable Advanced Bus-Level Timing"
 msgstr ""
 
 msgctxt "#30002"
-msgid "Frame Skip"
+msgid "CPU mode"
 msgstr ""
 
 msgctxt "#30003"
-msgid "Pointer Mode"
+msgid "Firmware language"
 msgstr ""
 
 msgctxt "#30004"
-msgid "Screen Layout"
+msgid "Frameskip"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Enable Edgemark"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Enable Line Hack"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Enable TXT Hack"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Hybrid layout cursor always on small screen"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Hybrid layout scale (restart)"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Hybrid layout show both screens"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Internal resolution (restart)"
+msgstr ""
+
+msgctxt "#30012"
+msgid "JIT block size"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Load Game into Memory (restart)"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Force Microphone Enable"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Microphone Simulation Settings"
+msgstr ""
+
+msgctxt "#30016"
+msgid "CPU cores"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Pointer Colour"
+msgstr ""
+
+msgctxt "#30018"
+msgid "Pointer emulation"
+msgstr ""
+
+msgctxt "#30019"
+msgid "Emulated pointer acceleration modifier percent"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Emulated pointer deadzone percent"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Enable mouse/pointer"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Enable emulated stylus jitter"
+msgstr ""
+
+msgctxt "#30023"
+msgid "Emulated stylus pressure modifier percent"
+msgstr ""
+
+msgctxt "#30024"
+msgid "Pointer type"
+msgstr ""
+
+msgctxt "#30025"
+msgid "Screen Gap"
+msgstr ""
+
+msgctxt "#30026"
+msgid "Screen layout"
 msgstr ""

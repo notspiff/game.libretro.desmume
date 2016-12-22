@@ -1,9 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <settings>
 	<category label="30000">
-		<setting label="30001" type="select" id="desmume_firmware_language" values="English|Japanese|French|German|Italian|Spanish" default="English"/>
-		<setting label="30002" type="select" id="desmume_frameskip" values="0|1|2|3|4|5|6|7|8|9" default="0"/>
-		<setting label="30003" type="select" id="desmume_pointer_type" values="relative|absolute" default="relative"/>
-		<setting label="30004" type="select" id="desmume_screens_layout" values="main_top_ext_bottom|main_bottom_ext_top|main_left_ext_right|main_right_ext_left" default="main_top_ext_bottom"/>
+		<setting label="30001" type="select" id="desmume_advanced_timing" values="enable|disable" default="enable"/>
+		<setting label="30002" type="select" id="desmume_cpu_mode" values="jit|interpreter" default="jit"/>
+		<setting label="30003" type="select" id="desmume_firmware_language" values="Auto|English|Japanese|French|German|Italian|Spanish" default="Auto"/>
+		<setting label="30004" type="select" id="desmume_frameskip" values="0|1|2|3|4|5|6|7|8|9" default="0"/>
+		<setting label="30005" type="select" id="desmume_gfx_edgemark" values="enable|disable" default="enable"/>
+		<setting label="30006" type="select" id="desmume_gfx_linehack" values="enable|disable" default="enable"/>
+		<setting label="30007" type="select" id="desmume_gfx_txthack" values="disable|enable" default="disable"/>
+		<setting label="30008" type="select" id="desmume_hybrid_cursor_always_smallscreen" values="yes|no" default="yes"/>
+		<setting label="30009" type="select" id="desmume_hybrid_layout_scale" values="1|3" default="1"/>
+		<setting label="30010" type="select" id="desmume_hybrid_showboth_screens" values="yes|no" default="yes"/>
+		<setting label="30011" type="select" id="desmume_internal_resolution" values="256x192|512x384|768x576|1024x768|1280x960|1536x1152|1792x1344|2048x1536|2304x1728|2560x1920" default="256x192"/>
+		<setting label="30012" type="select" id="desmume_jit_block_size" values="12|11|10|9|8|7|6|5|4|3|2|1|0|100|99|98|97|96|95|94|93|92|91|90|89|88|87|86|85|84|83|82|81|80|79|78|77|76|75|74|73|72|71|70|69|68|67|66|65|64|63|62|61|60|59|58|57|56|55|54|53|52|51|50|49|48|47|46|45|44|43|42|41|40|39|38|37|36|35|34|33|32|31|30|29|28|27|26|25|24|23|22|21|20|19|18|17|16|15|14|13" default="12"/>
+		<setting label="30013" type="select" id="desmume_load_to_memory" values="disable|enable" default="disable"/>
+		<setting label="30014" type="select" id="desmume_mic_force_enable" values="no|yes" default="no"/>
+		<setting label="30015" type="select" id="desmume_mic_mode" values="internal|sample|random|physical" default="internal"/>
+		<setting label="30016" type="select" id="desmume_num_cores" values="1|2|3|4" default="1"/>
+		<setting label="30017" type="select" id="desmume_pointer_colour" values="white|black|red|blue|yellow" default="white"/>
+		<setting label="30018" type="select" id="desmume_pointer_device" values="none|l-stick|r-stick" default="none"/>
+		<setting label="30019" type="select" id="desmume_pointer_device_acceleration_mod" values="0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|32|33|34|35|36|37|38|39|40|41|42|43|44|45|46|47|48|49|50|51|52|53|54|55|56|57|58|59|60|61|62|63|64|65|66|67|68|69|70|71|72|73|74|75|76|77|78|79|80|81|82|83|84|85|86|87|88|89|90|91|92|93|94|95|96|97|98|99|100" default="0"/>
+		<setting label="30020" type="select" id="desmume_pointer_device_deadzone" values="15|20|25|30|0|5|10" default="15"/>
+		<setting label="30021" type="select" id="desmume_pointer_mouse" values="enable|disable" default="enable"/>
+		<setting label="30022" type="select" id="desmume_pointer_stylus_jitter" values="disable|enable" default="disable"/>
+		<setting label="30023" type="select" id="desmume_pointer_stylus_pressure" values="50|51|52|53|54|55|56|57|58|59|60|61|62|63|64|65|66|67|68|69|70|71|72|73|74|75|76|77|78|79|80|81|82|83|84|85|86|87|88|89|90|91|92|93|94|95|96|97|98|99|100|0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|32|33|34|35|36|37|38|39|40|41|42|43|44|45|46|47|48|49|" default="50"/>
+		<setting label="30024" type="select" id="desmume_pointer_type" values="mouse|touch" default="mouse"/>
+		<setting label="30025" type="select" id="desmume_screens_gap" values="0|5|64|90|0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|32|33|34|35|36|37|38|39|40|41|42|43|44|45|46|47|48|49|50|51|52|53|54|55|56|57|58|59|60|61|62|63|64|65|66|67|68|69|70|71|72|73|74|75|76|77|78|79|80|81|82|83|84|85|86|87|88|89|90|91|92|93|94|95|96|97|98|99|100" default="0"/>
+		<setting label="30026" type="select" id="desmume_screens_layout" values="top/bottom|bottom/top|left/right|right/left|top only|bottom only|quick switch|hybrid/top|hybrid/bottom" default="top/bottom"/>
 	</category>
 </settings>
