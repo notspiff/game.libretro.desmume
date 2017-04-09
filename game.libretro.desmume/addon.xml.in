@@ -20,9 +20,9 @@
 		<summary lang="en">Nintendo DS (DeSmuME) git</summary>
 		<description>DeSmuME is software that allows you to emulate a Nintendo DS system.
 
-Supported files: .nds, .bin
+Special thanks to: yopyop (original author of DeSmuME), for releasing the source code of this great emulator; Martin Korth (author of GBATEK), for his well-written Gameboy Advance and Nintendo DS documentation.
 
-Special thanks to: yopyop (original author of DeSmuME), for releasing the source code of this great emulator; Martin Korth (author of GBATEK), for his well-written Gameboy Advance and Nintendo DS documentation.</description>
+Supported files: .nds, .bin</description>
 		<license>GPLv2</license>
 		<platform>@PLATFORM@</platform>
 	</extension>
